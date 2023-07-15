@@ -87,3 +87,21 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 }
+
+
+
+/*//////////////////////////////////////////////////////////////
+    SCROLLBARS
+//////////////////////////////////////////////////////////////*/
+*::-webkit-scrollbar {
+	width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ddd;
+	border-radius: 10px;
+}

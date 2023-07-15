@@ -1,5 +1,6 @@
 // React
 import { FC } from "react";
+import { KanbanBoard } from "../../w-components/kanban/kanban";
 
 type PageProps = {
     params: {
@@ -11,7 +12,7 @@ const JobManager = ({ params: { id } }: PageProps) => {
 
     return (
         <>
-            job manager
+            <KanbanBoard />
         </>
     )
 }
